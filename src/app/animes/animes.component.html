@@ -1,0 +1,39 @@
+<div class="card-body">
+    <select (change)="onChange($event)" style="border:2px solid lightsalmon">
+        <option>Seleciona tu categoría</option>
+        <option  value="todos">Todos los Animes</option>
+        <option  value="Shōnen">Shonen</option>
+        <option  value="Shōjo">Shojo</option>
+        <option  value="Seinen">Seinen</option>
+        <option  value="Josei">Josei</option>
+    </select>  
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="mt-5" >Lista de Animes</h2>
+            <table class="table">
+                <thead class="thead-dark; align-left" >
+                    <tr>
+                        <th>Título</th>
+                        <th>Texto</th>
+                        <th>Autor</th>
+                        <th>Categoría</th>
+                        <th>Url</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let anime of animes">
+                        <td>{{ anime.titulo }}<ul><img [src]="anime.imagen"></ul></td>
+                        <td>{{ anime.texto }}</td>
+                        <td>{{ anime.autor }}</td>
+                        <td>{{ anime.categoria }}</td>
+                        <td><a target="_blank" [href]="anime.url">Enlace</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+

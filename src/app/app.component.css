@@ -1,0 +1,42 @@
+
+.boton {
+    width: 85px;
+    height: 30px;
+    font-size: 15px;
+    color: wheat;
+    background-color: black;
+    
+}
+
+.titulo {
+    text-align:center;
+    
+}
+
+.cabecera {
+    height: 60px;
+    width:auto;
+    background: linear-gradient(rgb(255, 1, 1), rgb(0, 0, 0));
+    font-size: 45px;
+    color: beige;
+    cursor: pointer;
+};
+
+button {
+    width: 30px;
+    height: 15px;
+}
+
+
+
+
+ 
+
+   
+
+ 
+   
+
+   
+
+

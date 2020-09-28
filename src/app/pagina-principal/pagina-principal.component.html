@@ -1,0 +1,38 @@
+<div class="contenido row ">
+    <div class="col-md-6">
+        <div class="card ">
+            <div class="card-header">
+                <h4 class="card-title">Categorias</h4>
+          
+            <div class="card-body">
+                <select (change)="onChange($event)" style="border:2px solid lightsalmon">
+                    <option>Seleciona tu categoría</option>
+                    <option  value="todos">Todos los Animes</option>
+                    <option  value="Shōnen">Shonen</option>
+                    <option  value="Shōjo">Shojo</option>
+                    <option  value="Seinen">Seinen</option>
+                    <option  value="Josei">Josei</option>
+                </select>  
+            </div>
+            
+            </div>
+        </div>
+    </div>
+    <div class="col-2"></div>
+    <div class="col-2">
+        <button class="btn btn-info btn-block">Login</button>
+    </div>
+    <div class="col-2">
+        <button class="btn btn-info btn-block"  [routerLink]="['/register']" (click)="login($event)">Registrarse</button>
+    </div>
+</div>
+
+
+
+
+
+
+
+        
+
+

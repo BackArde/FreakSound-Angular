@@ -1,1 +1,75 @@
 /* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; font-family: "saiyan-sans-font"}
+
+@import url('https://fontmeme.com/fonts/saiyan-sans-font/');
+:root{
+    font-family: 'Saiyan-Sans', Saiyan-Sans;
+}
+
+
+body {   
+    background-image: 
+    url("../image/anime.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(41, 40, 40);
+    background-blend-mode: soft-light;
+    background-attachment:fixed;
+ 
+}
+
+.container {
+  margin-top: 5px;
+}
+
+
+
+table{
+  border-collapse: separate;
+  border-spacing: 5px;
+  background: #000 ;
+  color: #fff;
+  border-collapse: expression("separate", cellSpacing = "5px");
+  font-weight:100px ;
+}
+
+tr {
+  background-color: rgb(185, 170, 170);
+  text-align: center;
+  vertical-align: top;
+  border: 1px solid #000;
+  border-spacing: 0;
+  font-size-adjust: initial;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+img {
+  width: 170px;
+  height: 220px;
+  margin-right: 35px ;
+  
+}
+
+.card {
+  background: linear-gradient(rgb(255, 1, 1), rgb(187, 183, 183));
+  margin-top: 5px;
+  border: 1.5px solid black;
+  text-align: center;
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

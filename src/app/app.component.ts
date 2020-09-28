@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UsuarioService } from './usuario.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'FreakSound';
+  constructor(public usuarioService: UsuarioService) { }
+
+  logOut() {
+    this.usuarioService.deleteToken();
+
+  }
 }
