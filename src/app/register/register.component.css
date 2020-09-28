@@ -1,0 +1,16 @@
+
+
+form{
+    
+    font-family: fantasy;
+    font-size-adjust: inherit;
+    font-weight: 700;
+    background: linear-gradient(rgb(255, 1, 1), rgb(0, 0, 0));
+    color: beige;
+    text-align: center;
+    
+}
+
+label {
+    text-align: center;
+}
